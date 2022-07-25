@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(270deg, #6a9eec, #65c0d3);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 5rem;
+  border-radius: 2rem;
+  background: white;
+  color: black;
+}
+
+.home,
+.notifications,
+.messages {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.home-title,
+.notification-title,
+.message-title {
+  padding-left: 2rem;
+}
+
+.notification-svg,
+.messages-svg {
+  overflow: visible;
+}
